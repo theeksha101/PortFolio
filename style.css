@@ -58,6 +58,13 @@ body{
     max-width: 80%;
     display: block;
     margin: auto;
+    
+}
+
+.about-image{
+    max-width: 80%;
+    margin: auto;
+    vertical-align: sub;
 }
 
 .header-heading{
@@ -84,9 +91,16 @@ body{
     margin-bottom: 1rem;
 }
 
+.space{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 .list-item{
     padding-bottom: 0.7rem;
     text-align: left;
+    padding-left: 1.2em;
+    overflow: hidden;
 }
 
 .section-project{
@@ -95,11 +109,24 @@ body{
 }
 
 .project-card{
-    border: 1px solid black;
-    padding: 1rem;
+    padding: 1.3rem;
+    margin: 1rem;
+    box-shadow: 25px #c8d1e2;
+    /* max-width: 60%;  */
     background: white;
+    border-radius: 1rem;
+    /* max-width: 40%; */
+    margin: auto;
+    -top: 2rem;
+
+    box-shadow: 0 10px 50px #528f7ab7;
     
 }
+.project-image {
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
 
 .project-heading{
     text-align: center;
@@ -124,8 +151,10 @@ body{
 
 .secondary-link{
     text-decoration: none;
-    background: white;
-    border: 1px solid black;
+    background: rgb(136, 136, 136);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 1px rgb(136, 136, 136);;
 
     padding-bottom: 0.5rem 1rem;
     margin: 1rem;
@@ -142,8 +171,12 @@ footer{
     text-align: center;
 }
 
+.footer-icon {
+    width: 3rem;
+  }
+
 .footer-header{
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 1rem;
 }
